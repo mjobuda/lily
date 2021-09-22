@@ -1,0 +1,2 @@
+md = open('./lilbook.md', "r").read()
+open('codeee',"w").write(''.join(md.split("```")[1::2]))
